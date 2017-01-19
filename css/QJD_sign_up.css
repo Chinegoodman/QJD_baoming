@@ -1,0 +1,275 @@
+html{
+    font-size: 100px;
+}
+body{
+    background-color: #DCDCDC;
+    position: relative;
+}
+#container{
+    width:3.75rem;
+    height:auto;
+    overflow: hidden;
+}
+/*#top_bg部分*/
+#top_bg{
+    width:3.75rem;
+    height:2.11rem;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 1;
+}
+#top_bg img{
+    width:100%;
+    height:100%;
+}
+/*content部分*/
+#content{
+    width:3.55rem;
+    height:auto;
+    position: absolute;
+    left:0.1rem;
+    top:1.76rem;
+    z-index: 100;
+    background-color: rgba(248,248,248,0.9);
+    padding:0.2rem 0 0.36rem;
+}
+/*
+qjd_show部分*/
+#qjd_show{
+    width:100%;
+    padding-bottom: 0.2rem;
+}
+.qjd_logo{
+    width:0.84rem;
+    height:0.6rem;
+    display: block;
+    margin:0 auto 0.15rem;
+}
+#qjd_show p{
+    font-size: 0.13rem;
+    color: #3C3C3C;
+    line-height: 0.2rem;
+    letter-spacing: -0.004rem;
+    margin:0.1rem 0.25rem 0.1rem 0.26rem;
+}
+.qjd_food{
+    width:100%;
+    height:2.66rem;
+    display: block;
+    margin:0.19rem 0 0.2rem;
+}
+#qjd_show p:last-child{
+    margin-bottom:0;
+}
+/*
+qjd_activity_1部分*/
+.qjd_activity_1{
+    width:100%;
+    /*height:1.5rem;*/
+    padding-bottom: 0.156rem;
+}
+.qjd_activity_title{
+    margin-left: -0.05rem;
+    width:1.2rem;
+    height:0.38rem;
+    margin-bottom: 0.12rem;
+}
+.qjd_activity_1 p{
+    margin-left: 0.26rem;
+    font-size: 0.13rem;
+    color: #4D4D4D;
+    line-height: 0.214rem;
+}
+/*
+qjd_activity_2部分*/
+.qjd_activity_2{
+    width:100%;
+    padding-bottom: 0.23rem;
+}
+.qjd_activity_title2{
+    margin-bottom: 0.17rem;
+}
+.qjd_activity_lc_lis{
+    overflow: hidden;
+    margin-left: 0.32rem;
+}
+.qjd_activity_lc_lis li{
+    float: left;
+    margin-right: 0.12rem;
+    line-height:0.7rem;
+}
+.qjd_activity_lc_lis li img{
+    width:100%;
+    height:100%;
+}
+.qjd_activity_lc_lis li:nth-child(odd) {
+    width: 0.7rem;
+    height: 0.7rem;
+    background: url('../images/未选中按钮@2x.png') no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.qjd_activity_lc_lis li:nth-child(odd) img{
+    width:0.45rem;
+    height:0.42rem;
+    margin-top: 0.12rem;
+}
+.qjd_activity_lc_lis li.qjd_activity_lc_lis_select{
+    background: url('../images/选中按钮@2x.png') no-repeat;
+    height:0.77rem;
+    background-size: 100% 100%;
+}
+.qjd_activity_lc_lis li:nth-child(even){
+    width:0.18rem;
+    height:0.17rem;
+    margin-top: 0.04rem;
+}
+.qjd_activity_lc_lis li:nth-child(even) img{
+    width:100%;
+    height:100%;
+}
+/*
+transfac_app_dl部分*/
+.transfac_app_dl {
+    width: 3.2rem;
+    height: 1.45rem;
+    margin-top: 0.09rem;
+    margin-left: 0.18rem;
+    background: url('../images/答案框@2x.png') no-repeat;
+    background-size: 100% 100%;
+}
+.transfac_app_dl p{
+    margin:0 auto 0.116rem;
+    padding-top: 0.26rem;
+    width:100%;
+    text-align: center;
+    font-size: 0.13rem;
+    color: #000;
+}
+.transfac_app_dl img{
+    width:0.71rem;
+    height:0.71rem;
+    display: block;
+    margin:0 auto;
+}
+/*
+qjd_activity_3开始*/
+.qjd_activity_3{
+    width:100%;
+    padding-bottom: 0.546rem;
+}
+.qjd_activity_3 ul{
+    margin-left: 0.26rem;
+}
+.qjd_activity_3 ul li{
+    margin-bottom: 0.006rem;
+    overflow: hidden;
+}
+.qjd_activity_3 ul li img{
+    width:0.22rem;
+    height:0.22rem;
+    margin-right: 0.04rem;
+    line-height: 0.22rem;
+    float: left;
+    border-radius: 50%;
+}
+.qjd_activity_3 ul li span{
+    font-size: 0.13rem;
+    line-height: 0.22rem;
+    float: left;
+    color: #4D4D4D;
+}
+/*
+qjd_official_wx开始*/
+.qjd_official_wx{
+    width:100%;
+    padding-bottom: 0.27rem;
+}
+.qjd_official_wx p{
+    text-align: center;
+    color: #1F2FE6;
+    font-size: 0.14rem;
+    line-height: 0.16rem;
+    font-weight: bold;
+}
+.qjd_official_wx span{
+    display: block;
+    width:100%;
+    text-align: center;
+    color: #1F2FE6;
+    font-size: 0.13rem;
+    line-height: 0.16rem;
+}
+.qjd_official_wx img{
+    display: block;
+    width:0.71rem;
+    height:0.71rem;
+    margin:0 auto 0.03rem;
+}
+.qjd_official_wx>div{
+    text-align: center;
+    color: #4D4D4D;
+    font-size: 0.11rem;
+    line-height: 0.16rem;
+}
+/*
+qjd_activity_sign_up_btn部分*/
+.qjd_activity_sign_up_btn{
+    width:3.75rem;
+    height:0.5rem;
+    background:url("../images/按钮报名@2x.png") no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    left:0;
+    bottom:0;
+    z-index:200;
+}
+.qjd_activity_sign_up_btn_nofixed{
+    margin:0 0 0.5rem -0.1rem;
+    position: static;
+}
+
+.qjd_activity_title_sign_up_infor{
+    margin-bottom: 0.14rem;
+}
+ul.qjd_activity_sign_up_infor_lis{
+    width:3.19rem;
+    margin:0 auto 0.4rem;
+}
+.qjd_activity_sign_up_infor_lis li{
+    width:2.91rem;
+    padding:0.13rem 0.14rem;
+    height:0.2rem;
+    background: url("../images/信息背景@2x.png") no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 0.15rem;
+    position: relative;
+    overflow: hidden;
+}
+.qjd_activity_sign_up_infor_lis li *{
+    float: left;
+    height:0.2rem;
+    line-height: 0.2rem;
+    font-size: 0.14rem;
+    color: #1F2FE6;
+}
+.qjd_activity_sign_up_infor_lis li span{
+    color: #DE1F26;
+}
+.qjd_activity_sign_up_infor_lis li input{
+    border:none;
+    width:2rem;
+    position: absolute;
+    right:0.14rem;
+    top:0.13rem;
+    text-align: right;
+    background: none;
+}
+.qjd_activity_sign_up_submit{
+    width:3.15rem;
+    height:0.5rem;
+    margin:0 auto;
+    background: url("../images/按钮提交@2x.png");
+    background-size: 100% 100%;
+}
